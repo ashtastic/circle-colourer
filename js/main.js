@@ -1,6 +1,12 @@
-var $body = $('html');
+var $form = $('.form');
+var $input = $('#color-selector');
+var $ball = $('.ball');
+var $color = $('.color');
 
-
+$input.on('submit', function () {
+  var newColor = $color.val('background-color');
+  var $ball.css('background-color', change.value());
+})
 
 
 
